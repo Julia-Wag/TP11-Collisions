@@ -17,7 +17,7 @@ public class ScoreUIManager : MonoBehaviour
     public void AddPointAndUpdateScore()
     {
         score ++;
-        if (score >= 3)
+        if (score = 3)
     {
         txtScore.text = "Ganaste";
     }
